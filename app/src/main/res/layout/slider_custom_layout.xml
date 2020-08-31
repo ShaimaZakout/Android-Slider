@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/slider_img"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/group_10" />
+
+    <TextView
+        android:id="@+id/slider_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slider_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="title"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/slider_subtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slider_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="PROFESSIONAL UMBRELLA: Our most popular umbrella, the umbrella is a compact wind resistant navy blue rain umbrella designed to fit in business briefcases, college backpacks, small travel totes, and glove compartments. With sleek styling, including a blue wind proof canopy, rubberized comfort grip handle, and an auto open close mechanism, the umbrella is the perfect size umbrella for the frequent traveler"
+        android:textSize="14sp"
+        android:padding="26dp"
+        android:textColor="@color/colorBase"
+
+        />
+</RelativeLayout>
